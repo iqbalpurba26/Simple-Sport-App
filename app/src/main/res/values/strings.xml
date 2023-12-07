@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SimpleUI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="data_name">
+        <item>Yoga</item>
+        <item>Gym</item>
+        <item>Cardio</item>
+        <item>Stretch</item>
+        <item>Full Body</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/yoga</item>
+        <item>@drawable/gym</item>
+        <item>@drawable/cardio</item>
+        <item>@drawable/stretch</item>
+        <item>@drawable/yoga</item>
+    </integer-array>
+
+
+    <string-array name="category_title">
+        <item>Full Shot Woman Stretching Arm</item>
+        <item>Athlete Practicing Monochrome</item>
+    </string-array>
+
+    <integer-array name="category_photo">
+        <item>@drawable/full_shot</item>
+        <item>@drawable/athlete</item>
+    </integer-array>
+
+    <string-array name="category_time">
+        <item>30 min</item>
+        <item>50 min</item>
+    </string-array>
+
+    <integer-array name="meal_photo">
+        <item>@drawable/greek</item>
+        <item>@drawable/salad</item>
+    </integer-array>
+
+    <string-array name="meal_title">
+        <item>Greek salad with lettuce, green onion,</item>
+        <item>Salad of fresh vegetables</item>
+    </string-array>
+
+    <string-array name="meal_kalori">
+        <item>150 kcal</item>
+        <item>270 kcal</item>
+    </string-array>
+
+    <integer-array name="addExercise_bg">
+        <item>@drawable/additional_exercise_1</item>
+        <item>@drawable/additional_exercise_2</item>
+        <item>@drawable/additional_exercise_3</item>
+    </integer-array>
+
+    <integer-array name="addExercise_photo">
+        <item>@drawable/additional1</item>
+        <item>@drawable/additional2</item>
+        <item>@drawable/additional3</item>
+    </integer-array>
+
+    <string-array name="addExercise_title">
+        <item>Exercise with Jumping Rope</item>
+        <item>Exercise with Hoding Jumping Rope</item>
+        <item>Exercise with Sitting Dumbbells</item>
+    </string-array>
+
+    <string-array name="addExercise_kalori">
+        <item>110 kcal</item>
+        <item>135 kcal</item>
+        <item>135 kcal</item>
+    </string-array>
+
+    <string-array name="addExercise_time">
+        <item>10 min</item>
+        <item>8 min</item>
+        <item>5 min</item>
+    </string-array>
+
+    <string-array name="addExercise_level">
+        <item>Beginner</item>
+        <item>Beginner</item>
+        <item>Beginner</item>
+    </string-array>
+
+
+</resources>

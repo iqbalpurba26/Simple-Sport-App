@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+
+    <ImageView
+        android:id="@+id/iv_exercise"
+        android:layout_width="300dp"
+        android:layout_height="155dp"
+        android:src="@drawable/full_shot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/rectangle_like"
+        app:layout_constraintEnd_toEndOf="@+id/iv_exercise"
+        app:layout_constraintTop_toTopOf="@+id/iv_exercise" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_heart"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Full Shot Woman Stretching Arm"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/iv_exercise"
+        app:layout_constraintTop_toBottomOf="@+id/iv_exercise" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Beginnner    |    "
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_exercise"
+        app:layout_constraintTop_toBottomOf="@+id/tv_exercise" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:src="@drawable/ic_clock"
+        app:layout_constraintStart_toEndOf="@+id/appCompatTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_exercise" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30 min"
+        android:textSize="10sp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/tv_exercise" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#69696926"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

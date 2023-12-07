@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+
+    <ImageView
+        android:id="@+id/iv_meal"
+        android:layout_width="300dp"
+        android:layout_height="155dp"
+        android:src="@drawable/greek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_meals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Ini adaah judul"
+        app:layout_constraintStart_toStartOf="@+id/iv_meal"
+        app:layout_constraintTop_toBottomOf="@+id/iv_meal" />
+
+
+    <TextView
+        android:id="@+id/kalori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="550 kcal"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_meals"
+        app:layout_constraintTop_toBottomOf="@+id/tv_meals" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#69696926"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kalori" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
